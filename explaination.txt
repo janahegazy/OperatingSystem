@@ -1,0 +1,13 @@
+1. Linker: collect all object codes to produce 1 executable file 
+2. loader: load executable file and standard libraries to load them in memory so we turn this program into process in execution 
+
+you'll find comments in files explaining the codes 
+3. to run: gcc name.c -o out ( -o out means that i want to make the output file"out"  in a specific format )
+4. let say that we have a process named"sleep" and we need to run it in the background thn we will
+write sleep 100 & (where sleep is the name of the process , 100 is the number of the process, & refers to running the process in the background 
+5. jobs command produce all the process in the background
+6.to stop the process: kill -STOP idOfTheProcess 
+7, to resume the process: 
+kill -CONT idOFTheProcess
+8, to delete the process: 
+kill idOFProcess
